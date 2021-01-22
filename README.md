@@ -36,7 +36,7 @@ Events:                   <none>
 ```
   
 ## access superset from web browser
-http://<minikube ip>:<srv/nodeport/port>
+http://[minikube ip]:[service/nodeport/port]<br/>
 example: http://192.168.99.100:31221
 
 ## expected output
