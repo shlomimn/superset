@@ -14,7 +14,7 @@ example result: 192.168.99.100
 ## finding service nodeport port
 kubectl describe service superset
 
-'''
+```
 Name:                     superset
 Namespace:                default
 Labels:                   app=superset
@@ -31,7 +31,7 @@ Endpoints:                172.17.0.5:8088
 Session Affinity:         None
 External Traffic Policy:  Cluster
 Events:                   <none>
-'''
+```
   
 ## access superset from web browser
 http://<minikube ip>:<srv/nodeport/port>
