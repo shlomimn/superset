@@ -10,7 +10,7 @@ kubectl apply -f superset_service.yml
 ```
 
 ## finding minikube's IP
-minikube ip 
+minikube ip<br/> 
 example result: 192.168.99.100
 
 ## finding service nodeport port
