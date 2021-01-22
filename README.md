@@ -25,7 +25,7 @@ IP:                       10.104.20.9
 IPs:                      10.104.20.9
 Port:                     <unset>  8088/TCP
 TargetPort:               8088/TCP
-NodePort:                 <unset>  *31221*/TCP
+NodePort:                 <unset>  31221/TCP
 Endpoints:                172.17.0.5:8088
 Session Affinity:         None
 External Traffic Policy:  Cluster
