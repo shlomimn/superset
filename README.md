@@ -1,11 +1,13 @@
 # superset
 
 ## command set
+
+```
 kubectl create deployment superset --image amancevice/superset:latest --dry-run -o yaml > superset_deployment.yml
 kubectl expose deployment superset --type=NodePort --port=8088 --dry-run -o yaml > superset_service.yml
 kubectl apply -f superset_deployment.yml
 kubectl apply -f superset_service.yml
-
+```
 
 ## finding minikube's IP
 minikube ip 
