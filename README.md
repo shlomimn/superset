@@ -39,5 +39,5 @@ Events:                   <none>
 http://[minikube ip]:[NodePort]<br/>
 example: http://192.168.99.100:31221
 
-## expected output
+## output
 <img src="./superset.jpg">
